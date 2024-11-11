@@ -1,6 +1,6 @@
 body{
     font-family: Copperplate;
-    background-color: whitesmoke;
+    background-color: white;
 }
 header {
     display: flex;
@@ -35,9 +35,9 @@ header > nav > ul > li > a {
     font-size: 2rem;
 }
 #main {
-    background-color: lightgrey;
+    background-color: grey;
     background-position: center;
-    border-radius: 140px;
+    border-radius: 1000px;
     padding-bottom: 70px;
     padding-top: 15px;
 }
@@ -52,6 +52,37 @@ header > nav > ul > li > a {
     font-size: 20px;
     text-align: center;
     padding-top: 30px;
+    cursor: pointer;
+}
+#mojezajmy > h1 {
+    font-size: 3rem;
+}
+#mojezajmy > ul {
+    list-style-type: circle;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#pingpong {
+    text-decoration: line-through;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+#skate {
+    background-color: grey;
+    border-radius: 20px;
+}
+#trav {
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+#music {
+    background-color: darkgrey;
+    border-radius: 20px;
+}
+#program {
+    background-color: dimgrey;
+    border-radius: 20px;
 }
 footer > ul {
     list-style: none;
