@@ -1,0 +1,33 @@
+body{
+    font-family: Copperplate;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header > nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+header > nav > ul > li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+header > h1 {
+    font-size: 4rem;
+    margin: 0;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 20px;
+}
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
